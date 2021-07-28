@@ -1,0 +1,15 @@
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\bin\Release\d3EtherealTracker.exe.config
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\bin\Release\d3EtherealTracker.exe
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\bin\Release\d3EtherealTracker.pdb
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\d3EtherealTracker.csproj.AssemblyReference.cache
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\MainWindow.g.cs
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\App.g.cs
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\d3EtherealTracker_MarkupCompile.cache
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\d3EtherealTracker_MarkupCompile.lref
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\MainWindow.baml
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\d3EtherealTracker.g.resources
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\d3EtherealTracker.Properties.Resources.resources
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\d3EtherealTracker.csproj.GenerateResource.cache
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\d3EtherealTracker.csproj.CoreCompileInputs.cache
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\d3EtherealTracker.exe
+C:\Users\0x1\source\repos\d3EtherealTracker\d3EtherealTracker\obj\Release\d3EtherealTracker.pdb
