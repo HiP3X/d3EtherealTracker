@@ -10,54 +10,508 @@
         <Grid.Background>
             <ImageBrush ImageSource="latest.png" Stretch="Fill"/>
         </Grid.Background>
-        <Label x:Name="Doombringer" Content="Doombringer" HorizontalAlignment="Left" Margin="288,52,0,0" VerticalAlignment="Top" Height="34" Width="172" FontFamily="ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Doombringer_Button" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="172" Margin="288,52,0,0" Height="34" Opacity="0" Click="Doombringer_Click"/>
-        <Label x:Name="Gimmershred" Content="Gimmershred" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="288,91,0,0" Height="36" Width="172" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" Foreground="Teal" FontSize="20"/>
-        <Button x:Name="Gimmershred_Button" Content="Button" HorizontalAlignment="Left" Margin="288,91,0,0" VerticalAlignment="Top" Width="172" Click="Gimmershred_Click" Opacity="0" Height="36"/>
-        <Label x:Name="The_Grandfather" Content="The Grandfather" HorizontalAlignment="Left" Margin="288,132,0,0" VerticalAlignment="Top" Height="33" Width="214" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" Foreground="Teal" FontSize="20"/>
-        <Button x:Name="The_Grandfather_Button" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="214" Margin="288,132,0,0" Click="The_Grandfather_Click" Opacity="0" Height="33"/>
-        <Label x:Name="Barberian" Content="Barbarian" HorizontalAlignment="Left" Margin="288,15,0,0" VerticalAlignment="Top" Width="166" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="25" Foreground="White"/>
-        <Label x:Name="Crusader" Content="Crusader" HorizontalAlignment="Left" Margin="11,175,0,0" VerticalAlignment="Top" Height="34" Width="155" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="25" Foreground="White"/>
-        <Label x:Name="Astreon_s_Iron_Ward" Content="Astreon's Iron Ward" HorizontalAlignment="Left" Margin="11,217,0,0" VerticalAlignment="Top" Height="36" Width="264" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Astreon_s_Iron_Ward_Button" Content="Button" HorizontalAlignment="Left" Margin="11,217,0,0" VerticalAlignment="Top" Width="264" Click="Astreon_s_Iron_Ward_Click" Opacity="0" Height="31"/>
-        <Label x:Name="Khalim_s_Will" Content="Khalim's Will" HorizontalAlignment="Left" Margin="11,272,0,0" VerticalAlignment="Top" Height="36" Width="164" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Khalim_s_Will_Buton" Content="Button" HorizontalAlignment="Left" Margin="11,272,0,0" VerticalAlignment="Top" Width="155" Click="Khalim_s_Will_Click" Opacity="0" Height="36"/>
-        <Label x:Name="The_Redeemer" Content="The Redeemer" HorizontalAlignment="Left" Margin="11,307,0,0" VerticalAlignment="Top" Height="28" Width="170" FontSize="20" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" Foreground="Teal"/>
-        <Button x:Name="The_Redeemer_Button" Content="Button" HorizontalAlignment="Left" Margin="11,307,0,0" VerticalAlignment="Top" Width="164" Click="The_Redeemer_Click" Opacity="0" Height="28"/>
-        <Label x:Name="Demon_Hunter" Content="Demon Hunter&#xD;&#xA;" HorizontalAlignment="Left" Margin="288,175,0,0" VerticalAlignment="Top" Height="45" Width="244" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" Foreground="White" FontSize="25"/>
-        <Label x:Name="Buriza_Do_Kyanon" Content="Buriza-Do Kyanon" HorizontalAlignment="Left" Margin="288,217,0,0" VerticalAlignment="Top" Height="36" Width="229" FontSize="20" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" Foreground="Teal"/>
-        <Button x:Name="Buriza_Do_Kyanon_Button" Content="Button" HorizontalAlignment="Left" Margin="288,217,251,0" VerticalAlignment="Top" Width="229" Click="Buriza_Do_Kyanon_Click" Opacity="0" Height="34"/>
-        <Label x:Name="Doomslinger" Content="Doomslinger" HorizontalAlignment="Left" Margin="288,272,0,0" VerticalAlignment="Top" Height="28" Width="172" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Doomslinger_Button" Content="Button" HorizontalAlignment="Left" Margin="288,272,314,0" VerticalAlignment="Top" Width="166" Click="Doomslinger_Click" Opacity="0" Height="28"/>
-        <Label x:Name="Windforce" Content="Windforce&#xD;&#xA;" HorizontalAlignment="Left" Margin="288,307,0,0" VerticalAlignment="Top" Height="32" Width="135" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" Foreground="Teal" FontSize="20"/>
-        <Button x:Name="Windforce_Button" Content="Button" HorizontalAlignment="Left" Margin="288,307,342,0" VerticalAlignment="Top" Width="135" Click="Windforce_Click" Opacity="0" Height="32"/>
-        <Label Content="Monk" HorizontalAlignment="Left" Margin="537,175,0,0" VerticalAlignment="Top" Height="36" Width="97" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="25" Foreground="White"/>
-        <Label x:Name="Bartuc_s_Cut_Throat" Content="Bartuc's Cut&#xD;&#xA;-Throat" HorizontalAlignment="Left" Margin="537,217,0,0" VerticalAlignment="Top" Height="50" Width="172" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Bartuc_s_Cut_Throat_Button" Content="Button" HorizontalAlignment="Left" Margin="537,217,0,0" VerticalAlignment="Top" Width="172" Click="Bartuc_s_Cut_Throat_Click" Opacity="0" Height="46"/>
-        <Label x:Name="Jade_Talon" Content="Jade Talon" HorizontalAlignment="Left" Margin="537,272,0,0" VerticalAlignment="Top" Height="29" Width="142" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Jade_Talon_Button" Content="Button" HorizontalAlignment="Left" Margin="537,272,0,0" VerticalAlignment="Top" Width="142" Click="Jade_Talon_Click" Opacity="0" Height="28"/>
-        <Label x:Name="Shadow_Killer" Content="Shadow Killer" HorizontalAlignment="Left" Margin="537,307,0,0" VerticalAlignment="Top" Height="29" Width="181" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Shadow_Killer_Button" Content="Button" HorizontalAlignment="Left" Margin="537,307,0,0" VerticalAlignment="Top" Width="172" Click="Shadow_Killer_Click" Opacity="0" Height="29"/>
-        <Label Content="Necromancer&#xD;&#xA;" HorizontalAlignment="Left" Margin="11,360,0,0" VerticalAlignment="Top" Height="43" Width="215" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="25" Foreground="White"/>
-        <Label x:Name="Blackbog_s_Sharp" Content="Blackbog's Sharp" HorizontalAlignment="Left" Margin="11,403,0,0" VerticalAlignment="Top" Height="39" Width="215" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Blackbog_s_Sharp_Button" Content="Button" HorizontalAlignment="Left" Margin="11,403,0,0" VerticalAlignment="Top" Width="205" Click="Blackbog_s_Sharp_Click" Opacity="0" Height="39"/>
-        <Label x:Name="Blackhand_Key" Content="Blackhand Key&#xD;&#xA;" HorizontalAlignment="Left" Margin="11,453,0,0" VerticalAlignment="Top" Width="185" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal" Height="29"  />
-        <Button x:Name="Blackhand_Key_Button" Content="Button" HorizontalAlignment="Left" Margin="11,453,0,0" VerticalAlignment="Top" Width="185" Click="Blackhand_Key_Button_Click" Opacity="0" Height="29"/>
-        <Label x:Name="Soul_Harvest" Content="Soul Harvest" HorizontalAlignment="Left" Margin="11,483,0,0" VerticalAlignment="Top" Width="173" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Soul_Harvest_Button" Content="Button" HorizontalAlignment="Left" Margin="11,483,0,0" VerticalAlignment="Top" Width="170" Click="Soul_Harvest_Button_Click" Opacity="0" Height="32"/>
-        <Label Content="Witch Doctor" HorizontalAlignment="Left" Margin="288,360,251,0" VerticalAlignment="Top" Height="32" Width="226" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="25" Foreground="White"/>
-        <Label x:Name="Arioc_s_Needle" Content="Arioc's Needle" HorizontalAlignment="Left" Margin="288,403,0,0" VerticalAlignment="Top" Width="189" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Arioc_s_Needle_Button" Content="Button" HorizontalAlignment="Left" Margin="288,403,302,0" VerticalAlignment="Top" Width="178" Click="Arioc_s_Needle_Button_Click" Opacity="0" Height="32"/>
-        <Label x:Name="Ghostflame" Content="Ghostflame" HorizontalAlignment="Left" Margin="288,453,0,0" VerticalAlignment="Top" Width="153" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal" Height="29"/>
-        <Button x:Name="Ghostflame_Button" Content="Button" HorizontalAlignment="Left" Margin="288,453,0,0" VerticalAlignment="Top" Width="153" Click="Ghostflame_Button_Click" Opacity="0" Height="25"/>
-        <Label x:Name="The_Gidbinn" Content="The Gidbinn" HorizontalAlignment="Left" Margin="288,483,327,0" VerticalAlignment="Top" Width="153" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="The_Gidbinn_Button" Content="Button" HorizontalAlignment="Left" Margin="288,483,332,0" VerticalAlignment="Top" Width="145" Click="The_Gidbinn_Button_Click" Opacity="0" Height="25"/>
-        <Label x:Name="Wizard" Content="Wizard" HorizontalAlignment="Left" Margin="537,360,80,0" VerticalAlignment="Top" Width="148" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="25" Foreground="White"/>
-        <Label x:Name="Mang_Song_s_Lesson" Content="Mang Song's &#xD;&#xA;Lesson" HorizontalAlignment="Left" Margin="537,403,0,0" VerticalAlignment="Top" Height="49" Width="160" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="Mang_Song_s_Lesson_Button" Content="Button" HorizontalAlignment="Left" Margin="537,403,0,0" VerticalAlignment="Top" Width="160" Click="Mang_Song_s_Lesson_Button_Click" Opacity="0" Height="45"/>
-        <Label x:Name="The_Oculus1" Content="The Oculus" HorizontalAlignment="Left" Margin="537,453,0,0" VerticalAlignment="Top" Width="157" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal"/>
-        <Button x:Name="The_Oculus_Button" Content="Button" HorizontalAlignment="Left" Margin="537,453,0,0" VerticalAlignment="Top" Width="148" Click="The_Oculus_Button_Click" Opacity="0" Height="26"/>
-        <Label x:Name="Wizardspike" Content="Wizardspike" HorizontalAlignment="Left" Margin="537,483,0,0" VerticalAlignment="Top" Width="157" FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" FontSize="20" Foreground="Teal" Height="29"/>
-        <Button x:Name="Wizardspike_Button" Content="Button" HorizontalAlignment="Left" Margin="537,483,92,0" VerticalAlignment="Top" Width="145" Click="Wizardspike_Button_Click" Opacity="0" Height="25"/>
+        <Label 
+			x:Name="Doombringer" 
+			Content="Doombringer" 
+			HorizontalAlignment="Left" 
+			Margin="288,52,0,0" 
+			VerticalAlignment="Top" 
+			Height="34" Width="172" 
+			FontFamily="ExocetLight" 
+			FontSize="20" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Doombringer_Button" 
+			Content="Button" 
+			HorizontalAlignment="Left" 
+			VerticalAlignment="Top" 
+			Width="172" 
+			Margin="288,52,0,0" 
+			Height="34" 
+			Opacity="0" 
+			Click="Doombringer_Click"/>
+        <Label 
+			x:Name="Gimmershred" 
+			Content="Gimmershred" 
+			HorizontalAlignment="Left" 
+			VerticalAlignment="Top" 
+			Margin="288,91,0,0" 
+			Height="36" Width="172" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			Foreground="Teal" 
+			FontSize="20"/>
+        <Button 
+			x:Name="Gimmershred_Button" 
+			Content="Button" 
+			HorizontalAlignment="Left" 
+			Margin="288,91,0,0" 
+			VerticalAlignment="Top" 
+			Width="172" 
+			Click="Gimmershred_Click" 
+			Opacity="0" 
+			Height="36"/>
+        <Label 
+			x:Name="The_Grandfather" 
+			Content="The Grandfather" 
+			HorizontalAlignment="Left" 
+			Margin="288,132,0,0" 
+			VerticalAlignment="Top" 
+			Height="33" Width="214" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			Foreground="Teal" 
+			FontSize="20"/>
+        <Button 
+			x:Name="The_Grandfather_Button" 
+			Content="Button" 
+			HorizontalAlignment="Left" 
+			VerticalAlignment="Top" 
+			Width="214" 
+			Margin="288,132,0,0" 
+			Click="The_Grandfather_Click" 
+			Opacity="0" 
+			Height="33"/>
+        <Label 
+			x:Name="Barberian" 
+			Content="Barbarian" 
+			HorizontalAlignment="Left" 
+			Margin="288,15,0,0" 
+			VerticalAlignment="Top" 
+			Width="166" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="25" 
+			Foreground="White"/>
+        <Label 
+			x:Name="Crusader" 
+			Content="Crusader" 
+			HorizontalAlignment="Left" 
+			Margin="11,175,0,0" 
+			VerticalAlignment="Top" 
+			Height="34" Width="155" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="25" 
+			Foreground="White"/>
+        <Label 
+			x:Name="Astreon_s_Iron_Ward" 
+			Content="Astreon's Iron Ward" 
+			HorizontalAlignment="Left" 
+			Margin="11,217,0,0" 
+			VerticalAlignment="Top" 
+			Height="36" 
+			Width="264" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Astreon_s_Iron_Ward_Button" 
+			Content="Button" 
+			HorizontalAlignment="Left" 
+			Margin="11,217,0,0" 
+			VerticalAlignment="Top" 
+			Width="264" 
+			Click="Astreon_s_Iron_Ward_Click" 
+			Opacity="0" 
+			Height="31"/>
+        <Label 
+			x:Name="Khalim_s_Will" 
+			Content="Khalim's Will" 
+			HorizontalAlignment="Left" 
+			Margin="11,272,0,0" 
+			VerticalAlignment="Top" 
+			Height="36" 
+			Width="164" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Khalim_s_Will_Buton" 
+			Content="Button" 
+			HorizontalAlignment="Left" 
+			Margin="11,272,0,0" 
+			VerticalAlignment="Top" 
+			Width="155" 
+			Click="Khalim_s_Will_Click" 
+			Opacity="0" 
+			Height="36"/>
+        <Label 
+			x:Name="The_Redeemer" 
+			Content="The Redeemer" 
+			HorizontalAlignment="Left" 
+			Margin="11,307,0,0" 
+			VerticalAlignment="Top" 
+			Height="28" 
+			Width="170" 
+			FontSize="20" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="The_Redeemer_Button" 
+			Content="Button" 
+			HorizontalAlignment="Left" 
+			Margin="11,307,0,0" 
+			VerticalAlignment="Top" 
+			Width="164" 
+			Click="The_Redeemer_Click" 
+			Opacity="0" 
+			Height="28"/>
+        <Label 
+			x:Name="Demon_Hunter" 
+			Content="Demon Hunter&#xD;&#xA;" 
+			HorizontalAlignment="Left" 
+			Margin="288,175,0,0" 
+			VerticalAlignment="Top" 
+			Height="45" 
+			Width="244" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			Foreground="White" 
+			FontSize="25"/>
+        <Label 
+			x:Name="Buriza_Do_Kyanon" 
+			Content="Buriza-Do Kyanon" 
+			HorizontalAlignment="Left" 
+			Margin="288,217,0,0" 
+			VerticalAlignment="Top" 
+			Height="36" 
+			Width="229" 
+			FontSize="20" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Buriza_Do_Kyanon_Button" 
+			Content="Button" 
+			HorizontalAlignment="Left"
+			Margin="288,217,251,0" 
+			VerticalAlignment="Top" 
+			Width="229" 
+			Click="Buriza_Do_Kyanon_Click"
+			Opacity="0"
+			Height="34"/>
+        <Label 
+			x:Name="Doomslinger" 
+			Content="Doomslinger"
+			HorizontalAlignment="Left" 
+			Margin="288,272,0,0"
+			VerticalAlignment="Top" 
+			Height="28" Width="172" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Doomslinger_Button" 
+			Content="Button" 
+			HorizontalAlignment="Left" 
+			Margin="288,272,314,0"
+			VerticalAlignment="Top"
+			Width="166"
+			Click="Doomslinger_Click"
+			Opacity="0" 
+			Height="28"/>
+        <Label 
+			x:Name="Windforce"
+			Content="Windforce&#xD;&#xA;" 
+			HorizontalAlignment="Left"
+			Margin="288,307,0,0"
+			VerticalAlignment="Top" 
+			Height="32" 
+			Width="135" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight"
+			Foreground="Teal" 
+			FontSize="20"/>
+        <Button
+			x:Name="Windforce_Button"
+			Content="Button"
+			HorizontalAlignment="Left"
+			Margin="288,307,342,0" 
+			VerticalAlignment="Top" 
+			Width="135" 
+			Click="Windforce_Click"
+			Opacity="0" 
+			Height="32"/>
+        <Label 
+			Content="Monk" 
+			HorizontalAlignment="Left"
+			Margin="537,175,0,0" 
+			VerticalAlignment="Top" 
+			Height="36" 
+			Width="97" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="25" 
+			Foreground="White"/>
+        <Label 
+			x:Name="Bartuc_s_Cut_Throat" 
+			Content="Bartuc's Cut&#xD;&#xA;-Throat"
+			HorizontalAlignment="Left" 
+			Margin="537,217,0,0" 
+			VerticalAlignment="Top" 
+			Height="50"
+			Width="172" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20"
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Bartuc_s_Cut_Throat_Button" 
+			Content="Button"
+			HorizontalAlignment="Left" 
+			Margin="537,217,0,0" 
+			VerticalAlignment="Top"
+			Width="172" 
+			Click="Bartuc_s_Cut_Throat_Click" 
+			Opacity="0"
+			Height="46"/>
+        <Label 
+			x:Name="Jade_Talon"
+			Content="Jade Talon" 
+			HorizontalAlignment="Left" 
+			Margin="537,272,0,0"
+			VerticalAlignment="Top" 
+			Height="29" 
+			Width="142" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20"
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Jade_Talon_Button"
+			Content="Button" 
+			HorizontalAlignment="Left" 
+			Margin="537,272,0,0"
+			VerticalAlignment="Top" 
+			Width="142" 
+			Click="Jade_Talon_Click" 
+			Opacity="0" 
+			Height="28"/>
+        <Label 
+			x:Name="Shadow_Killer" 
+			Content="Shadow Killer"
+			HorizontalAlignment="Left"
+			Margin="537,307,0,0" 
+			VerticalAlignment="Top" 
+			Height="29" 
+			Width="181"
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight"
+			FontSize="20" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Shadow_Killer_Button" 
+			Content="Button"
+			HorizontalAlignment="Left"
+			Margin="537,307,0,0"
+			VerticalAlignment="Top"
+			Width="172" 
+			Click="Shadow_Killer_Click"
+			Opacity="0" 
+			Height="29"/>
+        <Label 
+			Content="Necromancer&#xD;&#xA;" 
+			HorizontalAlignment="Left" 
+			Margin="11,360,0,0" 
+			VerticalAlignment="Top"
+			Height="43" 
+			Width="215" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight"
+			FontSize="25" 
+			Foreground="White"/>
+        <Label 
+			x:Name="Blackbog_s_Sharp"
+			Content="Blackbog's Sharp" 
+			HorizontalAlignment="Left"
+			Margin="11,403,0,0" 
+			VerticalAlignment="Top" 
+			Height="39" Width="215" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Blackbog_s_Sharp_Button" 
+			Content="Button"
+			HorizontalAlignment="Left" 
+			Margin="11,403,0,0" 
+			VerticalAlignment="Top" 
+			Width="205" 
+			Click="Blackbog_s_Sharp_Click" 
+			Opacity="0"
+			Height="39"/>
+        <Label 
+			x:Name="Blackhand_Key" 
+			Content="Blackhand Key&#xD;&#xA;"
+			HorizontalAlignment="Left" 
+			Margin="11,453,0,0" 
+			VerticalAlignment="Top" 
+			Width="185"
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight"
+			FontSize="20" 
+			Foreground="Teal"
+			Height="29"  />
+        <Button 
+			x:Name="Blackhand_Key_Button"
+			Content="Button" 
+			HorizontalAlignment="Left"
+			Margin="11,453,0,0"
+			VerticalAlignment="Top"
+			Width="185" 
+			Click="Blackhand_Key_Button_Click" 
+			Opacity="0" 
+			Height="29"/>
+        <Label 
+			x:Name="Soul_Harvest" 
+			Content="Soul Harvest"
+			HorizontalAlignment="Left"
+			Margin="11,483,0,0" 
+			VerticalAlignment="Top"
+			Width="173"
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Soul_Harvest_Button" 
+			Content="Button" 
+			HorizontalAlignment="Left" 
+			Margin="11,483,0,0" 
+			VerticalAlignment="Top" 
+			idth="170" 
+			Click="Soul_Harvest_Button_Click" 
+			Opacity="0" 
+			Height="32"/>
+        <Label
+			Content="Witch Doctor"
+			HorizontalAlignment="Left" 
+			Margin="288,360,251,0" 
+			VerticalAlignment="Top" 
+			Height="32"
+			Width="226" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="25" 
+			Foreground="White"/>
+        <Label 
+			x:Name="Arioc_s_Needle"
+			Content="Arioc's Needle" 
+			HorizontalAlignment="Left" 
+			Margin="288,403,0,0" 
+			VerticalAlignment="Top" 
+			Width="189" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Arioc_s_Needle_Button"
+			Content="Button"
+			HorizontalAlignment="Left"
+			Margin="288,403,302,0"
+			VerticalAlignment="Top" 
+			Width="178" 
+			Click="Arioc_s_Needle_Button_Click" 
+			Opacity="0" 
+			Height="32"/>
+        <Label 
+			x:Name="Ghostflame"
+			Content="Ghostflame"
+			HorizontalAlignment="Left"
+			Margin="288,453,0,0" 
+			VerticalAlignment="Top"
+			Width="153"
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20" 
+			Foreground="Teal" 
+			Height="29"/>
+        <Button 
+			x:Name="Ghostflame_Button"
+			Content="Button" 
+			HorizontalAlignment="Left"
+			Margin="288,453,0,0" 
+			VerticalAlignment="Top"
+			Width="153" 
+			Click="Ghostflame_Button_Click" 
+			Opacity="0" 
+			Height="25"/>
+        <Label 
+			x:Name="The_Gidbinn"
+			Content="The Gidbinn" 
+			HorizontalAlignment="Left"
+			Margin="288,483,327,0"
+			VerticalAlignment="Top"
+			Width="153" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20" 
+			Foreground="Teal"/>
+        <Button 
+			x:Name="The_Gidbinn_Button"
+			Content="Button" 
+			HorizontalAlignment="Left"
+			Margin="288,483,332,0" 
+			VerticalAlignment="Top" 
+			Width="145"
+			Click="The_Gidbinn_Button_Click"
+			Opacity="0" 
+			Height="25"/>
+        <Label 
+			x:Name="Wizard" 
+			Content="Wizard"
+			HorizontalAlignment="Left" 
+			Margin="537,360,80,0" 
+			VerticalAlignment="Top" 
+			Width="148" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="25"
+			Foreground="White"/>
+        <Label 
+			x:Name="Mang_Song_s_Lesson" 
+			Content="Mang Song's &#xD;&#xA;Lesson"
+			HorizontalAlignment="Left" 
+			Margin="537,403,0,0" 
+			VerticalAlignment="Top" 
+			Height="49" 
+			Width="160"
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20"
+			Foreground="Teal"/>
+        <Button 
+			x:Name="Mang_Song_s_Lesson_Button" 
+			Content="Button"
+			HorizontalAlignment="Left"
+			Margin="537,403,0,0"
+			VerticalAlignment="Top" 
+			Width="160"
+			Click="Mang_Song_s_Lesson_Button_Click" 
+			Opacity="0" 
+			Height="45"/>
+        <Label 
+			x:Name="The_Oculus1"
+			Content="The Oculus" 
+			HorizontalAlignment="Left" 
+			Margin="537,453,0,0" 
+			VerticalAlignment="Top" 
+			Width="157" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight" 
+			FontSize="20"
+			Foreground="Teal"/>
+        <Button
+			x:Name="The_Oculus_Button" 
+			Content="Button" 
+			HorizontalAlignment="Left"
+			Margin="537,453,0,0" 
+			VerticalAlignment="Top" 
+			Width="148" 
+			Click="The_Oculus_Button_Click"
+			Opacity="0" 
+			Height="26"/>
+        <Label 
+			x:Name="Wizardspike"
+			Content="Wizardspike"
+			HorizontalAlignment="Left" 
+			Margin="537,483,0,0" 
+			VerticalAlignment="Top" 
+			Width="157" 
+			FontFamily="/d3EtherealTracker;component/Fonts/#ExocetLight"
+			FontSize="20"
+			Foreground="Teal"
+			Height="29"/>
+        <Button 
+			x:Name="Wizardspike_Button"
+			Content="Button" 
+			HorizontalAlignment="Left" 
+			Margin="537,483,92,0" 
+			VerticalAlignment="Top"
+			Width="145" 
+			Click="Wizardspike_Button_Click" 
+			Opacity="0" 
+			Height="25"/>
     </Grid>
 </Window>
